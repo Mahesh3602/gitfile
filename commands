@@ -1,0 +1,11 @@
+git init
+git remote add origin "https://github.com/Mahesh3602/MyCode.git"
+
+git add -A 
+git status
+
+git config user.name "Mahesh"
+git config user.email "maheshbiradar22@gmail.com"
+
+git push -u origin master
+git pull -u origin master
