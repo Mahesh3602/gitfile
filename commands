@@ -7,5 +7,7 @@ git status
 git config user.name "Mahesh"
 git config user.email "maheshbiradar22@gmail.com"
 
+git commit -m "my commit message"
+
 git push -u origin master
 git pull -u origin master
