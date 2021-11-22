@@ -11,3 +11,17 @@ git commit -m "my commit message"
 
 git push -u origin master
 git pull -u origin master
+
+
+**************************************
+
+mkdir newproject
+Ccd newproject
+echo "#create new file for my project" >> README.md
+Git init
+git add README.md
+git commit -m "first commit"
+git branch -M main 
+git remote add origin https://github.com/Mahesh3602/Newproject.git
+git push -u origin main
+git status
